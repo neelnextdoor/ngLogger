@@ -4,8 +4,5 @@
     "winston": "^3.11.0",
     "winston-daily-rotate-file": "^4.7.1"
   },
-  "scripts": {
-    "test:app": "node app.js",
-    "start": "nodemon app.js"
-  }
+  "files": ["winstonLogger.js","logger.js","loggerBridge.js"],
 }
